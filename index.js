@@ -2,7 +2,7 @@ const express = require("express");
 require("dotenv").config();
 const sequelize = require("./db");
 const cookieParser = require("cookie-parser");
-const models = require("./models");
+const models = require("./models/index");
 const cors = require("cors");
 const fileUpload = require("express-fileupload");
 const router = require("./routes/index");
